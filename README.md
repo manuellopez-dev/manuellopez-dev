@@ -1,83 +1,81 @@
-# Manuelifter
+# Hola, soy Luis Manuel López Cano 👋
 
-Desarrollador de software en formación, enfocado en la construcción de aplicaciones web completas (frontend + backend).  
-Interesado en arquitectura de software, seguridad en autenticación y desarrollo de productos propios.
-
----
-
-## Sobre mí
-
-Soy programador con experiencia práctica desarrollando aplicaciones web utilizando Angular en el frontend y Node.js con Express en el backend.  
-Trabajo con bases de datos como MySQL y SQL Server, y me interesa mejorar constantemente en buenas prácticas, seguridad y estructura de proyectos.
-
-Actualmente desarrollo proyectos como:
-
-- Sistemas de gestión (CRUD completos)
-- Aplicaciones de control de gastos
-- Plataformas con autenticación y encriptación de contraseñas
-- Integraciones con APIs externas
-
-Mi enfoque principal es construir aplicaciones funcionales, bien organizadas y escalables.
+Desarrollador Full Stack enfocado en Angular, Node.js y desarrollo de aplicaciones web y móviles.
+Me apasiona construir productos bien organizados, con arquitectura limpia y buena experiencia de usuario.
 
 ---
 
-## Tecnologías y herramientas
+## 🛠️ Stack tecnológico
 
-### Frontend
-- Angular
-- TypeScript
-- HTML5
-- CSS3
-- Bootstrap
-- Angular Material
+**Frontend**
 
-### Backend
-- Node.js
-- Express
-- Sequelize
-- JWT
-- Bcrypt (hashing de contraseñas)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
+![Angular Material](https://img.shields.io/badge/Angular%20Material-757575?style=flat&logo=angular&logoColor=white)
 
-### Bases de datos
-- MySQL
-- SQL Server
-- MongoDB (nivel básico)
+**Backend**
 
-### Otras herramientas
-- Git
-- GitHub
-- Postman
-- Unity (proyectos 3D básicos)
-- Flutter (CRUD móvil)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)
 
----
+**Bases de datos**
 
-## Áreas de interés
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
 
-- Autenticación y seguridad
-- Arquitectura de APIs REST
-- Optimización de interfaces
-- Desarrollo de proyectos personales escalables
-- Integración de servicios externos (APIs)
+**Mobile**
+
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)
+
+**Herramientas**
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
+![REST API](https://img.shields.io/badge/REST%20APIs-005571?style=flat)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white)
 
 ---
 
-## Objetivo profesional
+## 🚀 Proyectos destacados
 
-Seguir fortaleciendo mis habilidades técnicas, terminar mi formación profesional en desarrollo de software y construir proyectos propios que puedan convertirse en productos reales.
+### [TaskManager](https://github.com/LuisManuelLopezCano/taskmanager)
+Plataforma integral de productividad personal desarrollada con Angular 16 y Node.js.
+
+- 📋 Gestión de tareas con prioridad, filtros y paginación
+- 📝 Módulo de notas con etiquetas y búsqueda
+- 💰 Control de finanzas personales con balance mensual
+- 🏠 Dashboard global con métricas centralizadas
+- 🔐 Autenticación completa con JWT y verificación por email
+- ⏰ Recordatorios automáticos vía cron job + Nodemailer
+- 📱 Diseño responsive con modo oscuro
+
+`Angular 16` `Node.js` `Express` `MySQL` `Sequelize` `JWT` `Angular Material`
 
 ---
 
-## Estadísticas
+## 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=TU_USUARIO&show_icons=true&theme=dark)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TU_USUARIO&layout=compact&theme=dark)
+<p align="left">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=TU_USUARIO&show_icons=true&theme=dark&hide_border=true&bg_color=1a1a2e&title_color=ffffff&text_color=aaaaaa&icon_color=6e9ef5" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TU_USUARIO&layout=compact&theme=dark&hide_border=true&bg_color=1a1a2e&title_color=ffffff&text_color=aaaaaa" />
+</p>
 
 ---
 
-## Contacto
+## 📫 Contacto
 
-- GitHub: https://github.com/TU_USUARIO
-- Email: tu_correo_aqui
+¿Tienes un proyecto en mente o quieres colaborar? No dudes en escribirme.
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/TU_USUARIO)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:TU_CORREO@gmail.com)
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=TU_USUARIO&color=1a1a2e&style=flat" alt="Profile views"/>
+</p>
