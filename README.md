@@ -157,15 +157,6 @@ Desarrollada con Angular 16 y Node.js, pensada para gestionar el día a día des
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=manuellopez-dev&theme=dark&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=DD0031&currStreakLabel=ffffff" />
 </p>
 
----
-
-3. Ve a **Actions** → ejecuta el workflow manualmente la primera vez
-4. La snake se actualizará automáticamente cada 12 horas ✅
-
-</details>
-
----
-
 ## 🎓 Educación
 
 **Ingeniería en Desarrollo y Gestión de Software**
