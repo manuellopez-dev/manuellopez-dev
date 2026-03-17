@@ -7,7 +7,7 @@
 Construyo aplicaciones web y móviles con arquitectura limpia,
 código mantenible y experiencia de usuario que realmente importa.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/TU_USUARIO)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luis-manuel-lopez-cano-692984390/)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:TU_CORREO@gmail.com)
 ![Profile views](https://komarev.com/ghpvc/?username=TU_USUARIO&color=0077B5&style=flat)
 
