@@ -159,48 +159,6 @@ Desarrollada con Angular 16 y Node.js, pensada para gestionar el día a día des
 
 ---
 
-## 🐍 Contribuciones
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manuellopez-dev/manuellopez-dev/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manuellopez-dev/manuellopez-dev/output/github-snake.svg" />
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/manuellopez-dev/manuellopez-dev/output/github-snake.svg" />
-</picture>
-
-<details>
-<summary>⚙️ Cómo activar la Snake Animation</summary>
-
-<br/>
-
-1. Asegúrate de tener un repositorio con tu nombre de usuario: `manuellopez-dev/manuellopez-dev`
-2. Crea el archivo `.github/workflows/snake.yml` con este contenido:
-
-```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-
 3. Ve a **Actions** → ejecuta el workflow manualmente la primera vez
 4. La snake se actualizará automáticamente cada 12 horas ✅
 
