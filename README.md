@@ -1,11 +1,14 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:0077B5&height=120&section=header&text=Luis%20Manuel%20L%C3%B3pez%20Cano&fontSize=32&fontColor=ffffff&fontAlignY=65&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:0077B5&height=140&section=header&text=Luis%20Manuel%20L%C3%B3pez%20Cano&fontSize=34&fontColor=ffffff&fontAlignY=65&animation=fadeIn" width="100%"/>
 
-### Full Stack Developer · Angular · Node.js · Flutter
+<br/>
 
-*Construyo aplicaciones web y móviles con arquitectura limpia,*
-*código mantenible y experiencia de usuario que realmente importa.*
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1200&color=58A6FF&center=true&vCenter=true&width=500&lines=Full+Stack+Developer;Angular+%C2%B7+Node.js+%C2%B7+Flutter;Building+clean+architecture;Convirtiendo+ideas+en+productos)](https://git.io/typing-svg)
+
+<br/>
+
+*"En constante evolución — como el código que escribo"*
 
 <br/>
 
@@ -107,7 +110,7 @@ Desarrollada con Angular 16 y Node.js, pensada para gestionar el día a día des
 | ⏰ Recordatorios | Cron job cada hora con flag `reminder_sent` para evitar duplicados |
 | 📱 UI | Responsive: grid en desktop, bottom nav fija en mobile + modo oscuro |
 
-> **Detalle técnico destacado:** Soft delete con `paranoid: true` en Sequelize — los registros eliminados no desaparecen de la BD, lo que permite auditoría y recuperación de datos.
+> **Detalle técnico:** Soft delete con `paranoid: true` en Sequelize — los registros eliminados no desaparecen de la BD, permitiendo auditoría y recuperación de datos.
 
 `Angular 16` `Node.js` `Express` `MySQL` `Sequelize` `JWT` `Angular Material` `Nodemailer`
 
@@ -116,12 +119,9 @@ Desarrollada con Angular 16 y Node.js, pensada para gestionar el día a día des
 ### [🌤️ WeatherApp](https://github.com/manuellopez-dev/WeatherApp)
 > Aplicación del clima con backend propio para proteger credenciales de API.
 
-Consume OpenWeatherMap a través de un backend Node.js, evitando exponer la API key en el cliente.
-
-- 🔍 Búsqueda de ciudades con autocompletado · 📍 Geolocalización automática
-- 🌡️ Clima actual completo (humedad, viento, visibilidad, presión, amanecer/atardecer)
-- 📅 Pronóstico de 5 días · 🎨 Fondos dinámicos según condición climática
-- 📱 Diseño responsive con glassmorphism
+- 🔍 Búsqueda con autocompletado · 📍 Geolocalización automática
+- 🌡️ Clima actual completo · 📅 Pronóstico de 5 días
+- 🎨 Fondos dinámicos según condición · 📱 Glassmorphism responsive
 
 `Angular 16` `Node.js` `Express` `OpenWeatherMap API`
 
@@ -130,11 +130,8 @@ Consume OpenWeatherMap a través de un backend Node.js, evitando exponer la API 
 ### [💬 ChatApp](https://github.com/manuellopez-dev/ChatApp)
 > Mensajería en tiempo real con salas, historial persistente y presencia de usuarios.
 
-Proyecto full-stack que integra Socket.io para comunicación bidireccional, con autenticación completa y experiencia de usuario fluida.
-
-- 🔐 Auth con JWT · 🏠 Salas de chat múltiples · ✍️ Indicador "escribiendo..."
-- 🟢 Lista de usuarios conectados en tiempo real · 😊 Avatares emoji al registro
-- 📜 Historial persistente en MySQL · 📱 Tema oscuro responsive
+- 🔐 Auth con JWT · 🏠 Salas múltiples · ✍️ Indicador "escribiendo..."
+- 🟢 Usuarios conectados en tiempo real · 📜 Historial en MySQL
 
 `Angular 16` `Node.js` `Socket.io` `MySQL` `JWT`
 
@@ -143,10 +140,7 @@ Proyecto full-stack que integra Socket.io para comunicación bidireccional, con 
 ### [📱 WeatherApp Flutter](https://github.com/manuellopez-dev/WeatherApp-Flutter)
 > Versión móvil nativa de WeatherApp — mismo producto, múltiples plataformas.
 
-Demuestra la capacidad de llevar una solución web a mobile manteniendo consistencia de funcionalidades.
-
-- 📍 Geolocalización al abrir · 🔍 Búsqueda en tiempo real · 🌙 Detección día/noche
-- 🎨 Fondos dinámicos según clima · 🔄 Pull to refresh
+- 📍 Geolocalización al abrir · 🌙 Detección día/noche · 🔄 Pull to refresh
 
 `Flutter` `Dart` `OpenWeatherMap API`
 
@@ -165,17 +159,65 @@ Demuestra la capacidad de llevar una solución web a mobile manteniendo consiste
 
 ---
 
+## 🐍 Contribuciones
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/manuellopez-dev/manuellopez-dev/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/manuellopez-dev/manuellopez-dev/output/github-snake.svg" />
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/manuellopez-dev/manuellopez-dev/output/github-snake.svg" />
+</picture>
+
+<details>
+<summary>⚙️ Cómo activar la Snake Animation</summary>
+
+<br/>
+
+1. Asegúrate de tener un repositorio con tu nombre de usuario: `manuellopez-dev/manuellopez-dev`
+2. Crea el archivo `.github/workflows/snake.yml` con este contenido:
+
+```yaml
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+      - uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+```
+
+3. Ve a **Actions** → ejecuta el workflow manualmente la primera vez
+4. La snake se actualizará automáticamente cada 12 horas ✅
+
+</details>
+
+---
+
 ## 🎓 Educación
 
 **Ingeniería en Desarrollo y Gestión de Software**
-Universidad Tecnológica del Norte de Guanajuato (UTNG)
-`En curso`
+Universidad Tecnológica del Norte de Guanajuato (UTNG) · `En curso`
 
 ---
 
 ## 📫 Contacto
 
-¿Tienes un proyecto en mente, una oportunidad laboral o quieres colaborar? Escríbeme — suelo responder rápido.
+¿Tienes un proyecto, una oportunidad laboral o quieres colaborar? Escríbeme — suelo responder rápido.
 
 <div align="center">
 
