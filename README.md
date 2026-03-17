@@ -1,7 +1,27 @@
-# Hola, soy Luis Manuel López Cano 👋
+<div align="center">
 
-Desarrollador Full Stack enfocado en Angular, Node.js y desarrollo de aplicaciones web y móviles.
-Me apasiona construir productos bien organizados, con arquitectura limpia y buena experiencia de usuario.
+# Luis Manuel López Cano
+
+**Full Stack Developer · Angular · Node.js · Flutter**
+
+Construyo aplicaciones web y móviles con arquitectura limpia,
+código mantenible y experiencia de usuario que realmente importa.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/TU_USUARIO)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:TU_CORREO@gmail.com)
+![Profile views](https://komarev.com/ghpvc/?username=TU_USUARIO&color=0077B5&style=flat)
+
+</div>
+
+---
+
+## Sobre mí
+
+Soy desarrollador Full Stack con enfoque en Angular, Node.js y Flutter. Me especializo en construir productos bien estructurados, desde la base de datos hasta la interfaz, con especial atención a la arquitectura, la escalabilidad y los detalles que marcan la diferencia en la experiencia del usuario.
+
+- 🎯 Actualmente trabajando en proyectos de productividad personal
+- 📚 Aprendiendo continuamente sobre patrones de diseño y arquitectura de software
+- 🤝 Abierto a colaboraciones y proyectos freelance
 
 ---
 
@@ -44,15 +64,20 @@ Me apasiona construir productos bien organizados, con arquitectura limpia y buen
 ## 🚀 Proyectos destacados
 
 ### [TaskManager](https://github.com/LuisManuelLopezCano/taskmanager)
-Plataforma integral de productividad personal desarrollada con Angular 16 y Node.js.
 
-- 📋 Gestión de tareas con prioridad, filtros y paginación
-- 📝 Módulo de notas con etiquetas y búsqueda
-- 💰 Control de finanzas personales con balance mensual
-- 🏠 Dashboard global con métricas centralizadas
-- 🔐 Autenticación completa con JWT y verificación por email
-- ⏰ Recordatorios automáticos vía cron job + Nodemailer
-- 📱 Diseño responsive con modo oscuro
+> Plataforma integral de productividad personal con gestión de tareas, finanzas y notas — todo en un solo lugar.
+
+Desarrollada con Angular 16 y Node.js, ofrece una experiencia completa para organizar el día a día desde un dashboard centralizado.
+
+| Módulo | Funcionalidades |
+|---|---|
+| 📋 Tareas | Prioridad, filtros y paginación |
+| 📝 Notas | Etiquetas y búsqueda rápida |
+| 💰 Finanzas | Control de ingresos/gastos con balance mensual |
+| 🏠 Dashboard | Métricas centralizadas en tiempo real |
+| 🔐 Auth | JWT + verificación por email |
+| ⏰ Recordatorios | Cron jobs automáticos con Nodemailer |
+| 📱 UI | Responsive + modo oscuro |
 
 `Angular 16` `Node.js` `Express` `MySQL` `Sequelize` `JWT` `Angular Material`
 
@@ -60,22 +85,16 @@ Plataforma integral de productividad personal desarrollada con Angular 16 y Node
 
 ## 📊 GitHub Stats
 
-<p align="left">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=TU_USUARIO&show_icons=true&theme=dark&hide_border=true&bg_color=1a1a2e&title_color=ffffff&text_color=aaaaaa&icon_color=6e9ef5" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TU_USUARIO&layout=compact&theme=dark&hide_border=true&bg_color=1a1a2e&title_color=ffffff&text_color=aaaaaa" />
+<p align="center">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=TU_USUARIO&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=58a6ff" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TU_USUARIO&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e" />
 </p>
 
 ---
 
 ## 📫 Contacto
 
-¿Tienes un proyecto en mente o quieres colaborar? No dudes en escribirme.
+¿Tienes un proyecto en mente o quieres colaborar? Escríbeme, suelo responder rápido.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/TU_USUARIO)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:TU_CORREO@gmail.com)
-
----
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=TU_USUARIO&color=1a1a2e&style=flat" alt="Profile views"/>
-</p>
+[![LinkedIn](https://img.shields.io/badge/Conectar%20en%20LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/TU_USUARIO)
+[![Gmail](https://img.shields.io/badge/Enviar%20un%20email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:TU_CORREO@gmail.com)
